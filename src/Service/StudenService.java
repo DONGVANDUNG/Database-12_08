@@ -24,7 +24,7 @@ public class StudenService {
                 String maker = data.getString(4);
                 String type = data.getString(5);
                 String ram = data.getString(6);
-                String CPU = data.getString(7);
+                 String CPU = data.getString(7);
                 int ssd = data.getInt(8);
                 String hdd = data.getString(9);
                 long price = data.getLong(10);
