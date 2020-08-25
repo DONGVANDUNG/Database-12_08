@@ -83,10 +83,10 @@ public class StudenService {
                     System.out.println("\t+Maker: " + maker);
                     System.out.println("\t+Type: " + type);
                     System.out.println("\t+Ram " + ram);
-                    System.out.println("\t+CPU: " + CPU);
-                    System.out.println("\t+SSD: " + ssd);
-                    System.out.println("\t+HDD: " + hdd);
-                    System.out.println("\t+Price: " + price);
+                    System.out.println("\t+CPU:  " + CPU);
+                    System.out.println("\t+SSD:  " + ssd);
+                    System.out.println("\t+HDD:  " + hdd);
+                    System.out.println("\t+Price:  " + price);
                     System.out.println("\t+Card: " + card);
                     System.out.println("\t+Screen_resolution:  " + screen_resolution);
                     System.out.println("\t+Screen_size:  " + screen_size);
