@@ -45,11 +45,11 @@ public class StudenService {
                 System.out.println("\t+HDD: " + hdd);
                 System.out.println("\t+Price: " + price);
                 System.out.println("\t+Card: " + card);
-                System.out.println("\t+Screen_resolution: " + screen_resolution);
+                System.out.println("\t+Screen_resolution:  " + screen_resolution);
                 System.out.println("\t+Screen_size: " + screen_size);
                 System.out.println("\t+Sold: " + sold);
                 System.out.println("\t+Created_timestamp: " + created_timestamp);
-                System.out.println("\t+Last_updated_timestamp: " + last_updated_timestamp);
+                System.out.println("\t+Last_updated_timestamp:  " + last_updated_timestamp);
             }
         } catch (SQLException throwables) {
             throwables.printStackTrace();
@@ -77,7 +77,7 @@ public class StudenService {
                     int sold = laptop.getInt(14);
                     String created_timestamp =laptop.getString(15);
                     String last_updated_timestamp =laptop.getString(16);
-                    System.out.println("-Thong tin may tinh thu "+id+": ");
+                    System.out.println("-Thong tin laptop thu "+id+": ");
                     System.out.println("\t+Name: " + name);
                     System.out.println("\t+Url: " + url);
                     System.out.println("\t+Maker: " + maker);
