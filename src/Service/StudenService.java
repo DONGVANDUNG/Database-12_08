@@ -91,8 +91,8 @@ public class StudenService {
                     System.out.println("\t+Screen_resolution: " + screen_resolution);
                     System.out.println("\t+Screen_size: " + screen_size);
                     System.out.println("\t+Sold: " + sold);
-                    System.out.println("\t+Created_timestamp: " + created_timestamp);
-                    System.out.println("\t+Last_updated_timestamp: " + last_updated_timestamp);
+                    System.out.println("\t+Created_timestamp:  " + created_timestamp);
+                    System.out.println("\t+Last_updated_timestamp:  " + last_updated_timestamp);
                 }
             }catch (SQLException throwables) {
                 throwables.printStackTrace();
