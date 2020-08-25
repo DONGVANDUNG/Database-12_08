@@ -88,9 +88,9 @@ public class StudenService {
                     System.out.println("\t+HDD: " + hdd);
                     System.out.println("\t+Price: " + price);
                     System.out.println("\t+Card: " + card);
-                    System.out.println("\t+Screen_resolution: " + screen_resolution);
-                    System.out.println("\t+Screen_size: " + screen_size);
-                    System.out.println("\t+Sold: " + sold);
+                    System.out.println("\t+Screen_resolution:  " + screen_resolution);
+                    System.out.println("\t+Screen_size:  " + screen_size);
+                    System.out.println("\t+Sold:  " + sold);
                     System.out.println("\t+Created_timestamp:  " + created_timestamp);
                     System.out.println("\t+Last_updated_timestamp:  " + last_updated_timestamp);
                 }
